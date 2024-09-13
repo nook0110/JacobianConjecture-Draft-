@@ -1,0 +1,138 @@
+2
+  -x**2 - x*y + x;
+  -x**2 - x*y - y**2 + y + 92;
+
+ROOT COUNTS :
+
+total degree : 4
+
+HOMOTOPY PARAMETERS :
+  d : 16 (standard double precision)
+  k :  2
+  a :  6.96949561984359E-01   7.17120148963764E-01
+  t :  1.00000000000000E+00   0.00000000000000E+00
+  no projective transformation
+
+****************** CURRENT CONTINUATION PARAMETERS *****************
+GLOBAL MONITOR : 
+  1. the condition of the homotopy           : 0
+  2. number of paths tracked simultaneously  : 1
+  3. maximum number of steps along a path    : 500
+  4. distance from target to start end game  : 1.000E-01
+  5. order of extrapolator in end game       : 0
+  6. maximum number of re-runs               : 1
+STEP CONTROL (PREDICTOR) :                    along path : end game
+  7: 8. type ( x:Cub,t:Rea ):( x:Cub,t:Rea ) : 8         : 8
+  9:10. minimum step size                    : 1.000E-06 : 1.000E-08
+ 11:12. maximum step size                    : 1.000E-01 : 1.000E-02
+ 13:14. reduction factor for step size       : 7.000E-01 : 5.000E-01
+ 15:16. expansion factor for step size       : 1.250E+00 : 1.100E+00
+ 17:18. expansion threshold                  : 1         : 1
+PATH CLOSENESS (CORRECTOR) :                  along path : end game
+ 19:20. maximum number of iterations         : 3         : 3
+ 21:22. relative precision for residuals     : 1.000E-09 : 1.000E-11
+ 23:24. absolute precision for residuals     : 1.000E-09 : 1.000E-11
+ 25:26. relative precision for corrections   : 1.000E-09 : 1.000E-11
+ 27:28. absolute precision for corrections   : 1.000E-09 : 1.000E-11
+SOLUTION TOLERANCES :                         along path : end game
+ 29:30. inverse condition of Jacobian        : 1.000E-04 : 1.000E-12
+ 31:32. clustering of solutions              : 1.000E-04 : 1.000E-12
+ 33:34. solution at infinity                 : 1.000E+08 : 1.000E+12
+********************************************************************
+
+OUTPUT INFORMATION DURING CONTINUATION :
+  1 : only the final solutions at the end of the paths           
+===========================================================================
+== 1 =  #step :  70 #fail : 19 #iter : 197 = regular solution ==
+t :  1.00000000000000E+00   0.00000000000000E+00
+m : 1                  Length of path :  4.07797660037049E+01
+the solution for t : 
+ x :  9.59166304662544E+00   9.18354961579912E-41
+ y : -8.59166304662544E+00  -5.73971850987445E-42
+== err :  9.260E-16 = rco :  4.752E-01 = res :  1.243E-14 ==
+== 2 =  #step :  49 #fail : 13 #iter : 145 = regular solution ==
+t :  1.00000000000000E+00   0.00000000000000E+00
+m : 1                  Length of path :  4.40865228238794E+01
+the solution for t : 
+ x : -9.59166304662544E+00  -1.10202595389589E-39
+ y :  1.05916630466254E+01   1.60712118276485E-40
+== err :  5.556E-16 = rco :  5.191E-01 = res :  1.066E-14 ==
+== 3 =  #step :  54 #fail : 15 #iter : 151 = regular solution ==
+t :  1.00000000000000E+00   0.00000000000000E+00
+m : 1                  Length of path :  2.28210248845299E+01
+the solution for t : 
+ x : -6.16297582203915E-31  -6.40949485492072E-31
+ y :  1.01046863561493E+01  -6.31088724176809E-30
+== err :  1.731E-14 = rco :  3.712E-01 = res :  1.339E-28 ==
+== 4 =  #step :  40 #fail : 10 #iter : 114 = regular solution ==
+t :  1.00000000000000E+00   0.00000000000000E+00
+m : 1                  Length of path :  1.54513917755105E+01
+the solution for t : 
+ x :  4.73316543132607E-29   5.75868460811339E-29
+ y : -9.10468635614927E+00   8.33037115913388E-28
+== err :  1.958E-13 = rco :  4.979E-01 = res :  1.696E-26 ==
+== #regu : 4 = #sing : 0 = #clus : 0 = #infi : 0 = #fail : 0 == 
+
+TIMING INFORMATION for continuation
+The elapsed time in seconds was           0.004000000 =  0h 0m 0s  4ms
+
+THE SOLUTIONS :
+
+4 2
+===========================================================================
+solution 1 :    start residual :  1.243E-14   #iterations : 1   success
+t :  1.00000000000000E+00   0.00000000000000E+00
+m : 1
+the solution for t :
+ x :  9.59166304662544E+00   0.00000000000000E+00
+ y : -8.59166304662544E+00  -6.37236764452981E-57
+== err :  1.296E-15 = rco :  4.752E-01 = res :  1.243E-14 = real regular ==
+solution 2 :    start residual :  1.066E-14   #iterations : 1   success
+t :  1.00000000000000E+00   0.00000000000000E+00
+m : 1
+the solution for t :
+ x : -9.59166304662544E+00   1.63132611699963E-55
+ y :  1.05916630466254E+01  -8.15663058499816E-56
+== err :  1.111E-15 = rco :  5.191E-01 = res :  1.066E-14 = real regular ==
+solution 3 :    start residual :  1.454E-28   #iterations : 1   success
+t :  1.00000000000000E+00   0.00000000000000E+00
+m : 1
+the solution for t :
+ x :  0.00000000000000E+00  -6.13068078142107E-46
+ y :  1.01046863561493E+01   0.00000000000000E+00
+== err :  7.568E-30 = rco :  3.712E-01 = res :  1.178E-44 = real regular ==
+solution 4 :    start residual :  1.802E-26   #iterations : 1   success
+t :  1.00000000000000E+00   0.00000000000000E+00
+m : 1
+the solution for t :
+ x :  5.60519385729927E-45   0.00000000000000E+00
+ y : -9.10468635614927E+00   0.00000000000000E+00
+== err :  9.380E-28 = rco :  1.000E+00 = res :  1.077E-43 = real regular ==
+===========================================================================
+A list of 4 solutions has been refined :
+Number of regular solutions     : 4.
+Number of singular solutions    : 0.
+Number of real solutions        : 4.
+Number of complex solutions     : 0.
+Number of clustered solutions   : 0.
+Number of solutions at infinity : 0.
+Number of failures              : 0.
+===========================================================================
+Frequency tables for correction, residual, and condition numbers :
+FreqCorr :  0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 : 4
+FreqResi :  0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 : 4
+FreqCond :  4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 : 4
+Small correction terms and residuals counted to the right.
+Well conditioned and distinct roots counted to the left.
+
+TIMING INFORMATION for Root Refining
+The elapsed time in seconds was           0.000000000 =  0h 0m 0s  0ms
+
+TIMING INFORMATION for solving the polynomial system
+The elapsed time in seconds was          35.297000000 =  0h 0m35s297ms
+
+PHC ran from 4 September 2024, 16:20:35 till 4 September 2024, 16:21:43.
+The total elapsed wall clock time is 67.994 seconds
+ = 1 minute 7 seconds 994 milliseconds.
+Seed used in random number generators : 9032.
+PHCv2.4.88 released 2023-12-26
